@@ -1,4 +1,3 @@
-
 const player = document.querySelector('.player');
 const videoElem = player.querySelector('.viewer');
 const progress = player.querySelector('.progress');
@@ -54,3 +53,4 @@ function handleRangeUpdate() {
 function skipsec () {
   videoElem.currentTime += parseFloat(this.dataset.skipre);
 }
+
